@@ -1,0 +1,1 @@
+- Reduciendo anidación IFS sin sentidos
