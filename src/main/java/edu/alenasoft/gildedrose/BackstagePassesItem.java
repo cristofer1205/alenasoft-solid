@@ -11,6 +11,9 @@ public class BackstagePassesItem implements Qualitable {
             if ((item.getSellIn() < 5)) {
                 item.setQuality(item.getQuality() + 1);
             }
+            if (item.getSellIn() < 0) {
+                item.setQuality(0);
+            }
         }
     }
 }
